@@ -50,7 +50,7 @@
 #prev{
     position: absolute;
     top: 48%;
-    left: 20%;
+    left: 10%;
     padding: 15px;
     border: none;
     background: none;
@@ -64,7 +64,7 @@
 #next{
     position: absolute;
     top: 48%;
-    right: 20%;
+    right: 10%;
     padding: 15px;
     border: none;
     background: none;
@@ -163,4 +163,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.preloader{
+    margin: auto;
 }

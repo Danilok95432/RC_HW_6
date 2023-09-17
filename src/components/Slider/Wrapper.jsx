@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import '../../assets/css/Slider.css'
 import '../Slide/Slide'
 import Slide from '../Slide/Slide'
+import Preloader from '../Slide/Preloader'
 
 const Wrapper = (props) => {
 
@@ -31,12 +32,12 @@ const Wrapper = (props) => {
         onTouchEnd={touchEnd}
         >
             {
-               props.products ?
-               props.products.map( product => {
-                    return <Slide key={product.id} content={product} />
-               })
+               props.products.length === 0 ?
+               <Preloader />
                :
-               <span>wait</span>
+               props.products.map( product => {
+                return <Slide key={product.id} content={product} />
+                })
             }
         </div>
     )
