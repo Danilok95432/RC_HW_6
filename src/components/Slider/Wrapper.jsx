@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import '../../assets/css/Slider.css'
+import '../../assets/scss/Slider.scss'
 import '../Slide/Slide'
 import Slide from '../Slide/Slide'
 import Preloader from '../Slide/Preloader'

@@ -1,7 +1,7 @@
 import { useEffect, useState} from "react"
 import SliderControls from "./SliderControls"
 import Wrapper from "./Wrapper"
-import '../../assets/css/Slider.css'
+import '../../assets/scss/Slider.scss'
 import Pagination from "./Pagination"
 import Switcher from "./Switcher"
 

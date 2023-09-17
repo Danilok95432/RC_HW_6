@@ -1,4 +1,4 @@
-import '../../assets/css/Slider.css'
+import '../../assets/scss/Slider.scss'
 
 const SliderControls = (props) => {
 
