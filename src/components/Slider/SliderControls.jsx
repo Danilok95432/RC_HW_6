@@ -6,10 +6,10 @@ const SliderControls = (props) => {
 
     return(
         <>
-            <button id='prev' onClick={
+            <button id='prev' className='prev-btn' onClick={
                 () => props.changeSlide(--step)
                 }></button>
-            <button id='next' onClick={
+            <button id='next' className='next-btn' onClick={
                 () => props.changeSlide(++step)
                 }></button>
         </>
